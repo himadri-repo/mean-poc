@@ -1,1 +1,1 @@
-"# MEAN Full Stack POC application" 
+# MEAN Full Stack POC application
