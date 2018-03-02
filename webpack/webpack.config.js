@@ -35,8 +35,7 @@ module.exports = {
             filename: 'index.html',
             showErrors: true,
             title: "Webpack App",
-            hash: false,
-            minify: true
+            hash: false
         }),
         new ContextReplacementPlugin(
             /angular(\\|\/)core(\\|\/)@angular/,
