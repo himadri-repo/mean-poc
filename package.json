@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack --config webpack/webpack.config.js --progress && nodemon ./bin/www"
+    "build": "webpack --config webpack/webpack.config.js --progress",
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "@angular/animations": "^5.2.0",
